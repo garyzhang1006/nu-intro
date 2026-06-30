@@ -1,0 +1,106 @@
+cv:
+  name: Gary Zhang
+  label: Student Researcher
+  email: zhanggary607@gmail.com
+  location: "Great Neck, New York"
+  image: ""
+  summary: Student researcher in machine learning for the physical sciences. I build graph neural network surrogates for mesh-based physics simulation (fluid dynamics and aneurysm hemodynamics) and ship AI products with real evaluation, grounding, and guardrails. I like turning messy scientific and real-world problems into models that are fast, honest about their limits, and actually useful.
+
+  social_networks:
+    - network: GitHub
+      username: garyzhang1006
+
+  address:
+    city: "Great Neck"
+    region: "New York"
+    countryCode: "US"
+
+  sections:
+    Experience:
+      - company: University of Pennsylvania (research)
+        position: Machine Learning Research
+        summary: Research on graph neural network surrogates for mesh-based physics. Working on 2D/3D aneurysm hemodynamics prediction, including a coefficient LSTM and mean-field operators, and on reducing overfitting in long-horizon rollouts.
+        highlights:
+          - Graph neural networks for unstructured-mesh fluid dynamics
+          - Neural surrogates for vascular blood-flow simulation
+
+      - company: AI applications and hackathon projects
+        position: AI Application Development (LLMs)
+        summary: Built GreenPath, EcoRise, and Solu. Shipped LLM features behind strict JSON-schema contracts, with retrieval grounding, evaluation harnesses, and explicit refusal handling.
+        highlights:
+          - JSON-contract LLM features grounded in source documents
+          - Eval harnesses, claim verification, and guardrails
+
+      - company: Open-source research
+        position: Generative Models (GANs)
+        summary: Adversarial-training fork of graph-network physics simulators to sharpen long-horizon rollout stability.
+        highlights:
+          - GAN training for stable long-rollout simulation
+
+      - company: Personal projects
+        position: Web and Software Engineering
+        summary: Full-stack applications and static-site generation across the stack (React, Node, Jekyll), including these portfolio sites.
+        highlights:
+          - Website generation and full-stack app development
+
+    Education:
+      - institution: "(your school - tell me and I'll add it)"
+        area: "Machine Learning / Computer Science"
+        studyType: ""
+
+    Awards:
+      - title: National Latin Exam Gold Medal (4x)
+        summary: "Earned the Gold Medal on the National Latin Exam four times."
+
+    Publications: []
+
+    Skills:
+      - name: Programming
+        level: ""
+        icon: fa-solid fa-code
+        keywords: "Python, JavaScript, TypeScript, C++, SQL, Bash"
+
+      - name: AI and LLMs
+        level: ""
+        icon: fa-solid fa-robot
+        keywords: "PyTorch, machine learning, deep learning, LLMs, GANs, ONNX, RAG, prompt engineering, evaluation"
+
+      - name: Physics and Simulation
+        level: ""
+        icon: fa-solid fa-atom
+        keywords: "computational fluid dynamics, graph neural networks, scientific computing, numerical simulation"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+
+      - name: Chinese
+        summary: "Fluent"
+
+    Interests:
+      - name: Machine Learning and AI
+        icon: fa-solid fa-tag
+        keywords: "machine learning, AI, LLMs, coding, generative models, ML for science"
+
+    Projects:
+      - name: EcoRise
+        summary: An app that lets people scan their daily activities to track CO2 emissions, wrapped in a gamified leaderboard where schools compete on climate impact. Combines a trained ONNX trash-classifier CNN with an LLM Eco-Coach, behind an eval harness and a FERPA/COPPA privacy engine.
+        highlights:
+          - Scan activities to track CO2 emissions
+          - Eval-driven, privacy-first product engineering
+
+      - name: GreenPath
+        summary: AI-assisted guidance for the US green card process, with strict JSON-contract LLM features grounded in official USCIS and Visa Bulletin sources.
+        highlights:
+          - Notice OCR to actionable timelines
+          - Grounded, citation-backed answers
+
+      - name: Solu
+        summary: An in-browser molecular solubility predictor using RDKit-JS and an ONNX model, running fully client-side on the ESOL dataset.
+        highlights:
+          - Client-side cheminformatics ML
+
+      - name: Learned mesh-based physics simulation
+        summary: Graph neural network solvers for fluid dynamics on unstructured meshes, plus a GAN fork for long-rollout stability.
+        highlights:
+          - GNN fluid solvers and adversarial training

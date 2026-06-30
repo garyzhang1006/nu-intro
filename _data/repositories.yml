@@ -1,0 +1,9 @@
+github_users:
+  - garyzhang1006
+
+repo_description_lines_max: 2
+
+github_repos:
+  - garyzhang1006/nu-intro
+  - garyzhang1006/solu
+  - garyzhang1006/graph-physics-gan
